@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
 @font-face {
     font-family: Gotham-Black;
     src: url(../fonts/GothamBlack.ttf);
@@ -50,14 +52,14 @@
     src: url(../fonts/ProximaNovaThin.ttf);
 }
 
-$color-accent: #E22B57;
+$color-accent: #66A3CB;
 $color-sky1: #0E8C99;
 $color-sky2: #169DA3;
 $color-sky3: #28ADA6;
 $color-back1: #202326;
 $color-back2: #2C3033;
 $color-back3: #E4E4E5;
-$background-color: #202326;
+$background-color: #66A3CB;
 $background-color2: #FBFBFB;
 $text-color: #EEE;
 $title-color: $color-accent;
@@ -244,7 +246,7 @@ canvas {
     margin-top: 21vh;
 }
 .hupc-subtitle{
-    font-family:Gotham-Bold;
+    font-family:'IBM Plex Sans';
     text-align: center;
     font-size: 3.5vh;
     letter-spacing: 0.5vh;
@@ -272,22 +274,32 @@ canvas {
 }
 
 .intro {
-    height: 100%;
-	margin-bottom: 10vh;
+    height: 100vh;
+    background-color: $color-back1;
+    background-image: url("/assets/img/background.png");
+    background-size: cover;
+    background-position-x: center;
 }
 
 .head-logo img {
     @include center-block();
-    width: 55%;
+    width: 30%;
     margin-top: 20vh;
 }
 
+.head-organizer {
+    height: 100%;
+}
+
 .top-buttons, .top-description {
-  font-family: Gotham-Bold;
+  font-family: 'IBM Plex Sans';
 }
 .top-description{
-    width: 43vh;
-    margin: 27vh auto 0;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: right;
+    padding: 0 5%;
     .first-row{
         display:flex;
         h2{
@@ -298,7 +310,7 @@ canvas {
             &:last-child{
                 justify-content:flex-end;
             }
-			font-family: ProximaNovaSemibold !important;
+			font-family: 'IBM Plex Sans' !important;
         }
     }
     h1{
@@ -308,13 +320,13 @@ canvas {
         letter-spacing: 0.6vh;
         text-align: center;
         margin-bottom: 0;
-		font-family: ProximaNovaSemibold !important;
+		font-family: 'IBM Plex Sans' !important;
     }
 }
 .bottom-description{
     margin: auto 0;
     h2{
-        font-family: Gotham-Bold;
+        font-family: 'IBM Plex Sans';
         color: #eee;
         margin: 0;
         text-align: center;
@@ -323,7 +335,6 @@ canvas {
     }
 }
 .top-buttons, .bottom-buttons {
-    margin-top: 1vh;
     >div {
         text-align: center;
     }
@@ -350,7 +361,15 @@ canvas {
 }
 
 .top-buttons .button-container {
+    margin-top: 6vh;
     height: 12vh;
+}
+
+.top-buttons .organizer-container {
+    height: 10vh;
+    margin-top: 20vh;
+    margin: 5%;
+    text-align: right;
 }
 
 

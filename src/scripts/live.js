@@ -283,7 +283,7 @@
 		{
 			if(current > CONST.HACKATHON_DURATION)
 			{
-				obj.hours = 36;
+				obj.hours = 24;
 			}
 		}
 

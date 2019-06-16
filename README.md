@@ -1,7 +1,3 @@
-<p align="center">
-  <img alt="HackUPC 2018" src="src/images/hackupc-ogimage@2x.png" width="100%"/>
-</p>
-
 # Setup
 
 We recommend having Node v6 installed on your computer.
@@ -97,4 +93,4 @@ New versions of the schedule will be loaded only if 'version' is different.
 
 # License
 
-MIT © Hackers@UPC
+MIT © KTHack
