@@ -13,54 +13,46 @@
 				{
 					"id":"10",
 					"title": "Registration",
-					"startHour": "10:30",
-					"endHour": "11:30",
+					"startHour": "18:00",
+					"endHour": "18:30",
 					"locationName": "Unknown",
 					"description": "Register to the hackathon, make sure to have your ID ready!"
 				},
 				{
 					"id":"20",
 					"title": "Opening Ceremony",
-					"startHour": "11:30",
-					"endHour": "12:00",
+					"startHour": "18:30",
+					"endHour": "19:00",
 					"locationName": "Unknown",
 					"description": "Introductory talk, meet us and discover the prizes"
 				},
 				{
 					"id":"30",
 					"title": "Hacking Starts",
-					"startHour": "12:00",
+					"startHour": "19:00",
 					"description": "Ready. Set. GO!"
 				},
 				{
 					"id":"40",
 					"title": "Team Building",
-					"startHour": "12:00",
-					"endHour": "12:30",
+					"startHour": "19:00",
+					"endHour": "19:30",
 					"locationName": "Unknown",
 					"description": "Looking for a team or new teammates?"
 				},
 				{
 					"id":"50",
-					"title": "Lunch",
-					"startHour": "13:00",
-					"endHour": "14:00",
+					"title": "Dinner",
+					"startHour": "19:30",
+					"endHour": "20:30",
 					"locationName": "Unknown",
 					"description": "Unknown"
 				},
 				{
 					"id":"60",
 					"title": "[Talk] Unknown",
-					"startHour": "14:00",
-					"endHour": "15:00",
-					"locationName": "Unknown",
-					"description": "Unknown"
-				},
-				{
-					"id":"70",
-					"title": "Dinner",
-					"startHour": "19:00",
-					"endHour": "20:00",
+					"startHour": "20:00",
+					"endHour": "21:00",
 					"locationName": "Unknown",
 					"description": "Unknown"
 				}
@@ -90,30 +82,14 @@
 				{
 					"id":"120",
 					"title": "Hacking Ends",
-					"startHour": "12:00",
+					"startHour": "7:00",
 					"description": "Unknown"
 				},
 				{
 					"id":"130",
-					"title": "Projects presentation",
-					"startHour": "12:30",
-					"endHour": "13:30",
-					"description": "Unknown"
-				},
-				{
-					"id":"140",
-					"title": "Lunch",
-					"startHour": "13:30",
-					"endHour": "14:30",
-					"locationName": "Unknown",
-					"description": "Unknown"
-				},
-				{
-					"id":"150",
-					"title": "Closing Ceremony",
-					"startHour": "14:30",
-					"endHour": "15:30",
-					"locationName": "Unknown",
+					"title": "Projects presentation and closing",
+					"startHour": "7:15",
+					"endHour": "8:00",
 					"description": "Unknown"
 				}
 			]
